@@ -1,7 +1,6 @@
 class Inkully < Formula
   desc "Inkully app"
   homepage "https://github.com"
-  version "0.1.1"
 
   # macOS ARM64 bottle
   on_macos do
