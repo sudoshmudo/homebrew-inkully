@@ -27,7 +27,7 @@ class Inkully < Formula
     libexec.install Dir["*"]
 
     # Symlink the CLI into bin
-    bin.install_symlink libexec/"inkully"
+    bin.install_symlink libexec/"Inkully.Cli" => "inkully"
   end
 
   test do
