@@ -1,6 +1,7 @@
 class Inkully < Formula
   desc "Inkully app"
   homepage "https://github.com"
+  version "0.1.1"
 
   # macOS ARM64 bottle
   on_macos do
@@ -25,7 +26,7 @@ class Inkully < Formula
   def install
     # Install everything into libexec
     libexec.install Dir["*"]
-
+b
     # Symlink the CLI into bin
     bin.install_symlink libexec/"Inkully.Cli" => "inkully"
   end
