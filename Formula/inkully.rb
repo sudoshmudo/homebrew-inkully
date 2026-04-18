@@ -6,8 +6,8 @@ class Inkully < Formula
   # macOS ARM64 bottle
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/sudoshmudo/homebrew-inkully/releases/download/v0.1.2/inkully-osx-arm64.tar.gz"
-      sha256 "ec63d2cb68e68f032ef6f37b242a58517182fd65ffc9288ec610b906fac0b182"
+      url "https://github.com/sudoshmudo/homebrew-inkully/releases/download/v0.1.3/inkully-osx-arm64.tar.gz"
+      sha256 "727e34cafec5e321e4fad21a3539cfe2fa133f563f0ac4883f167c4025466ef8"
     else
       odie "Only ARM64 macOS is supported"
     end
@@ -16,8 +16,8 @@ class Inkully < Formula
   # Linux ARM64 bottle
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/sudoshmudo/homebrew-inkully/releases/download/v0.1.2/inkully-linux-arm64.tar.gz"
-      sha256 "3684dd70230fb78de62261f0a55a5180cad64918060f4086fb42c0fa4c7a7155"
+      url "https://github.com/sudoshmudo/homebrew-inkully/releases/download/v0.1.3/inkully-linux-arm64.tar.gz"
+      sha256 "a48b74c80b6dfd339fdec1f15744f986318f71588c7d15f5fe40e4ea7d64c3f2"
     else
       odie "Only ARM64 Linux is supported"
     end
